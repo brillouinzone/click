@@ -22,7 +22,7 @@ def virtual_click():
             print(f"Virtual click performed at ({target_x}, {target_y})")
 
         # Wait for 1 second before the next click
-        time.sleep(1)
+        time.sleep(1.)
 
 
 # Start the virtual click function in a separate thread
